@@ -2,9 +2,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: pink;
     height:10vh;
-    margin: 0px;
+    margin: 0px 20px 0px 0px;
 }
 
 .nav-item{

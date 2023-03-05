@@ -5,23 +5,24 @@
     
 }
 .tumbnails{
-    margin:20px;
+    position: relative;
     border: 1px solid black;
+    top: 100px;
     height:200px;
     width: 300px;
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
 
 }
 
 .tumbnails:hover{
     scale:1.025;
-    transition:1s; 
+    transition:1s;
+    box-shadow: 5px 5px 5px 0px;
 }
 
 .thumb1{
     background-image: url("../../../../assets/images/noteScreenshot.png");
-
 
 }
 
