@@ -1,7 +1,4 @@
 .contentCon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: 1px solid black;
-    height: 60vh;
+    height: 70vh;
 }
