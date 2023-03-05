@@ -1,0 +1,16 @@
+.tumbnailCon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tumbnails{
+    margin:20px;
+    border: 1px solid black;
+    height:200px;
+    width: 300px;
+}
+
+.tumbnails:hover{
+    scale:1.025;
+    transition:1s; 
+}
