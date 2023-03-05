@@ -2,15 +2,37 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 .tumbnails{
     margin:20px;
     border: 1px solid black;
     height:200px;
     width: 300px;
+    background-size:contain;
+    background-repeat: no-repeat;
+
 }
 
 .tumbnails:hover{
     scale:1.025;
     transition:1s; 
+}
+
+.thumb1{
+    background-image: url("../../../../assets/images/noteScreenshot.png");
+
+
+}
+
+.thumb2{
+    background-image: url("../../../../assets/images/passwordScreenshot.png");
+}
+
+.thumb3{
+    background-image: url("../../../../assets/images/rpsScreenshot.png");
+}
+
+.thumb4{
+    background-image: url("../../../../assets/images/weatherScreenshot.png");
 }
