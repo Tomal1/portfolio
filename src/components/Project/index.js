@@ -1,9 +1,12 @@
 
 import React from "react";
+import "./project.css"
 
 const Project = () => {
     return(
-        <p>This is the project section where everything is displayed</p>
+        <div className="contentCon">
+
+        </div>
     )
 }
 
