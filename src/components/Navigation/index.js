@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./navigation.css";
 
 // the 2 arguments/ props are beng parsed in from PortfolioContainer.js
@@ -6,7 +6,7 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
 
     <ul className="nav nav-tabs">
-
+      
       <li className="nav-item">
         <a href="#AboutMe" onClick={() => handlePageChange("AboutMe")} className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>
           About Me
