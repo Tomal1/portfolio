@@ -6,6 +6,7 @@ import Navigation from "../Navigation";
 import "./project.css"
 import AboutMe from "../Pages/About Me";
 import Portfolio from "../Pages/Portfolio";
+import Contact from '../Pages/Contact';
 
 
 
@@ -17,6 +18,8 @@ const Project = () => {
       return <AboutMe/>
       case "Portfolio": 
       return <Portfolio/>
+      case "Contact": 
+      return <Contact/>
     }
   }
   
