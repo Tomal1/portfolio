@@ -1,5 +1,6 @@
 import React from "react";
 import "./navigation.css";
+//import variableName from file path
 
 // the 2 arguments/ props are beng parsed in from PortfolioContainer.js
 function Navigation({ currentPage, handlePageChange }) {
@@ -7,27 +8,27 @@ function Navigation({ currentPage, handlePageChange }) {
 
     <ul className="nav nav-tabs">
       
-      <li className="nav-item">
-        <a href="#AboutMe" onClick={() => handlePageChange("AboutMe")} className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>
+      <li className={currentPage === 'AboutMe' ? 'nav-item-active nav-item' : 'nav-item'} >
+        <a href="#AboutMe" onClick={() => handlePageChange("AboutMe")} >
           About Me
         </a>
       </li>
 
-      <li className="nav-item">
-        <a href="#Portfolio" onClick={() => handlePageChange("Portfolio")} className={currentPage === "Portfolio" ? 'nav-link active' : 'nav-link'}>
+      <li className={currentPage === "Portfolio" ? 'nav-item-active  nav-item' : 'nav-link'}>
+        <a href="#Portfolio" onClick={() => handlePageChange("Portfolio")}>
           Portfolio
         </a>
       </li>
       
-      <li className="nav-item">
-        <a href="#Contact" onClick={() => handlePageChange("Contact")} className={currentPage === "Contact" ? 'nav-link active' : 'nav-link'}>
+      <li className={currentPage === "Contact" ? 'nav-item-active  nav-item' : 'nav-link'}>
+        <a href="#Contact" onClick={() => handlePageChange("Contact")}>
         Contact
         </a>
       </li>
 
-      <li className="nav-item">
+      <li className={currentPage === "Resume" ? 'nav-item-active  nav-item' : 'nav-link'}>
         <a
-          href="#Resume" onClick={() => handlePageChange("Resume")} className={currentPage === "Resume" ? 'nav-link active' : 'nav-link'}>
+          href="#href ={variavbleName} download" onClick={() => handlePageChange("Resume")} className={currentPage === "Resume" ? 'nav-link active' : 'nav-link'}>
           Resume
         </a>
       </li>

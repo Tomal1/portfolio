@@ -9,10 +9,16 @@
 .nav-item{
     display: inline;
     list-style: none;
-    margin:10px;
+    margin:20px;
      
+}
+
+.nav-item-active {
+    background-color: black;
+    color: white;
 }
 
 a{
     text-decoration: none;
+    
 }
