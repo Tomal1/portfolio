@@ -22,18 +22,18 @@
 }
 
 .thumb1{
-    background-image: url("../../../../assets/images/noteScreenshot.png");
+    background-image: url("../../../assets/images/noteScreenshot.png");
 
 }
 
 .thumb2{
-    background-image: url("../../../../assets/images/passwordScreenshot.png");
+    background-image: url("../../../assets/images/passwordScreenshot.png");
 }
 
 .thumb3{
-    background-image: url("../../../../assets/images/rpsScreenshot.png");
+    background-image: url("../../../assets/images/rpsScreenshot.png");
 }
 
 .thumb4{
-    background-image: url("../../../../assets/images/weatherScreenshot.png");
+    background-image: url("../../../assets/images/weatherScreenshot.png");
 }

@@ -2,6 +2,8 @@ import React from "react";
 import "./navigation.css";
 //import variableName from file path
 
+import resume from "../../assets/resume.pdf";
+
 // the 2 arguments/ props are beng parsed in from PortfolioContainer.js
 function Navigation({ currentPage, handlePageChange }) {
   return (
@@ -28,7 +30,7 @@ function Navigation({ currentPage, handlePageChange }) {
 
       <li className={currentPage === "Resume" ? 'nav-item-active' : 'nav-link'}>
         <a
-          href="#href ={variavbleName} download" onClick={() => handlePageChange("Resume")} className={currentPage === "Resume" ? 'nav-link active' : 'nav-link'}>
+          href={resume} download onClick={() => handlePageChange("Resume")} className={currentPage === "Resume" ? 'nav-link active' : 'nav-link'}>
           Resume
         </a>
       </li>
