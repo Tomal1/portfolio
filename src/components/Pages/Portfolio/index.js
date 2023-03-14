@@ -8,8 +8,6 @@ import image4 from "../../../assets/images/rpsScreenshot.png";
 import image5 from "../../../assets/images/WDS.png";
 import image6 from "../../../assets/images/weatherScreenshot.png";
 
-
-
 const Portfolio = () => {
     return(
         <div className="tumbnailCon">
