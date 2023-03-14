@@ -14,40 +14,40 @@ const Portfolio = () => {
     return(
         <div className="tumbnailCon">
             <figure className="tumbnails">
-                <figcaption>xyz</figcaption>             
+                <figcaption>Code Quiz</figcaption>             
                 <img src={image1} className="thumb1 images"/>
-                <input className="portoBTN" type="button" value="website"></input>
-                <input className="portoBTN" type="button" value="github"></input>  
+                <a href="https://tomal1.github.io/Code_quiz/" target="_blank"><input className="portoBTN" type="button" value="website"></input></a>
+                <a href="https://github.com/Tomal1/challenge_WK4_code_quiz" target="_blank"><input className="portoBTN" type="button" value="github"></input></a>
             </figure>
             <figure className="tumbnails">
-                <figcaption>xyz</figcaption>             
+                <figcaption>Note Taker</figcaption>             
                 <img src={image2} className="thumb2 images"/>
-                <input className="portoBTN" type="button" value="website"></input>
-                <input className="portoBTN" type="button" value="github"></input>
+                <a href="https://arcane-savannah-67499.herokuapp.com/notes" target="_blank"><input className="portoBTN" type="button" value="website"></input></a>
+                <a href=" https://github.com/Tomal1/Note-Taker" target="_blank"><input className="portoBTN" type="button" value="github"></input></a>
             </figure>
             <figure className="tumbnails">
-                <figcaption>xyz</figcaption>             
+                <figcaption>Password Generator</figcaption>             
                 <img src={image3} className="thumb3 images"/>
-                <input className="portoBTN" type="button" value="website"></input>
-                <input className="portoBTN" type="button" value="github"></input>
+                <a href="https://tomal1.github.io/challage_WK3/" target="_blank"><input className="portoBTN" type="button" value="website"></input></a>
+                <a href="https://github.com/Tomal1/challage_WK3" target="_blank"><input className="portoBTN" type="button" value="github"></input></a>
             </figure>
             <figure className="tumbnails">
-                <figcaption>xyz</figcaption>             
+                <figcaption>Rock, Paper & Scissors</figcaption>             
                 <img src={image4} className="thumb4 images"/>
-                <input className="portoBTN" type="button" value="website"></input>
-                <input className="portoBTN" type="button" value="github"></input>     
+                <a href="https://tomal1.github.io/Rock-Paper-and-Scissors/" target="_blank"><input className="portoBTN" type="button" value="website"></input></a>
+                <a href="https://github.com/Tomal1/Rock-Paper-and-Scissors" target="_blank"><input className="portoBTN" type="button" value="github"></input></a>   
             </figure>
             <figure className="tumbnails">
-                <figcaption>xyz</figcaption>             
+                <figcaption>Work Day Scheduler</figcaption>             
                 <img src={image5} className="thumb5 images"/>
-                <input className="portoBTN" type="button" value="website"></input>
-                <input className="portoBTN" type="button" value="github"></input>
+                <a href="https://tomal1.github.io/Work-Day-Scheduler/" target="_blank"><input className="portoBTN" type="button" value="website"></input></a>
+                <a href="https://github.com/Tomal1/Work-Day-Scheduler" target="_blank"><input className="portoBTN" type="button" value="github"></input></a>
             </figure>
             <figure className="tumbnails">
-                <figcaption>xyz</figcaption>
+                <figcaption>Weather App</figcaption>
                 <img src={image6} className="thumb6 images"/>
-                <input className="portoBTN" type="button" value="website"></input>
-                <input className="portoBTN" type="button" value="github"></input>
+                <a href="https://tomal1.github.io/6_weather_app/" target="_blank"><input className="portoBTN" type="button" value="website"></input></a>
+                <a href="https://github.com/Tomal1/6_weather_app" target="_blank"><input className="portoBTN" type="button" value="github"></input></a>
             </figure>
         </div>
     )
