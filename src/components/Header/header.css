@@ -1,7 +1,9 @@
 .header{
     display: flex;
-    justify-self: start;
     align-items: center;
-    height:15vh;
+    height:10vh;
+    width: 100vw;
+    background: blue;
+    color: white;
     padding: 0px 0px 0px 20px
 }

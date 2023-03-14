@@ -1,39 +1,31 @@
-.tumbnailCon{
+.tumbnailCon {
+    height: 75vh;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    
+    align-items: center;
 }
+
 .tumbnails{
-    position: relative;
-    border: 1px solid black;
-    top: 100px;
+    height: 240px;
+    width: 300px;
+    margin:10px;
+}
+
+.images{
     height:200px;
     width: 300px;
-    background-size:cover;
-    background-repeat: no-repeat;
-
 }
 
-.tumbnails:hover{
-    scale:1.025;
-    transition:1s;
-    box-shadow: 5px 5px 5px 0px;
+.portoBTN{
+    width: 45%;
+    margin:5px 5px auto 5px;
+    border-style: none;
+    background-color: black;
+    color: white;
 }
 
-.thumb1{
-    background-image: url("../../../assets/images/noteScreenshot.png");
+.portoBTN:hover{
+    scale: 1.05;
+    transition: 1s;
 
-}
-
-.thumb2{
-    background-image: url("../../../assets/images/passwordScreenshot.png");
-}
-
-.thumb3{
-    background-image: url("../../../assets/images/rpsScreenshot.png");
-}
-
-.thumb4{
-    background-image: url("../../../assets/images/weatherScreenshot.png");
 }

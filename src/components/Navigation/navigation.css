@@ -1,7 +1,9 @@
 .nav{
+    margin:0px;
+    background-color: yellow;
     display: flex;
     align-items: center;
-    height:10vh;
+    height:5vh;
     width: 100vw;
     justify-content: space-evenly;
 }
