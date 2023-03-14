@@ -13,41 +13,42 @@ import image6 from "../../../assets/images/weatherScreenshot.png";
 const Portfolio = () => {
     return(
         <div className="tumbnailCon">
-            <div className="tumbnails">
+            <figure className="tumbnails">
+                <figcaption>xyz</figcaption>             
                 <img src={image1} className="thumb1 images"/>
                 <input className="portoBTN" type="button" value="website"></input>
-                <input className="portoBTN" type="button" value="github"></input>
-            </div>
-            <div className="tumbnails">
+                <input className="portoBTN" type="button" value="github"></input>  
+            </figure>
+            <figure className="tumbnails">
+                <figcaption>xyz</figcaption>             
                 <img src={image2} className="thumb2 images"/>
                 <input className="portoBTN" type="button" value="website"></input>
                 <input className="portoBTN" type="button" value="github"></input>
-
-            </div>
-            <div className="tumbnails">
+            </figure>
+            <figure className="tumbnails">
+                <figcaption>xyz</figcaption>             
                 <img src={image3} className="thumb3 images"/>
                 <input className="portoBTN" type="button" value="website"></input>
                 <input className="portoBTN" type="button" value="github"></input>
-
-            </div>
-            <div className="tumbnails">
+            </figure>
+            <figure className="tumbnails">
+                <figcaption>xyz</figcaption>             
                 <img src={image4} className="thumb4 images"/>
                 <input className="portoBTN" type="button" value="website"></input>
-                <input className="portoBTN" type="button" value="github"></input>
-
-            </div>
-            <div className="tumbnails">
+                <input className="portoBTN" type="button" value="github"></input>     
+            </figure>
+            <figure className="tumbnails">
+                <figcaption>xyz</figcaption>             
                 <img src={image5} className="thumb5 images"/>
                 <input className="portoBTN" type="button" value="website"></input>
                 <input className="portoBTN" type="button" value="github"></input>
-
-            </div>
-            <div className="tumbnails">
+            </figure>
+            <figure className="tumbnails">
+                <figcaption>xyz</figcaption>
                 <img src={image6} className="thumb6 images"/>
                 <input className="portoBTN" type="button" value="website"></input>
                 <input className="portoBTN" type="button" value="github"></input>
-
-            </div>
+            </figure>
         </div>
     )
 }
